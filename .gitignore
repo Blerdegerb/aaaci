@@ -1,1 +1,5 @@
 venv
+
+# python stuff and what not
+__pycache__
+db.sqlite3
