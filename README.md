@@ -13,6 +13,10 @@ foo@barr:~/aaaci$ source venv/bin/activate        # activate virtualenv
 ```console
 (venv) foo@barr:~/aaaci$ pip install -r requirements.txt
 ```
+- You might also need to migrate your database.
+```console
+(venv) foo@barr:~/aaaci$ python manage.py migrate
+```
 
 #### Run development server
 ```console
